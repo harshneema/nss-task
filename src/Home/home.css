@@ -1,0 +1,59 @@
+.card > div > img {
+    width: 100%;
+    height: 30vw;
+}
+
+.nav-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: large;
+    margin-top: 2vw;
+}
+
+.slick-center img {
+    width: 100%;
+    height: 27%;
+}
+.slick-center .card {
+    height: 50vw;
+    width: 32vw !important;
+}
+
+.card {
+    margin: 0px 20px;
+    height: 50vw;
+    width: 30vw !important;
+
+}
+
+.Main > div {
+    overflow: hidden;
+}
+
+.Main > div{
+    height: 800px  !important;
+}
+
+.name{
+    font-size: xx-large;
+    color: rgb(78, 4, 78);
+    padding-top: 20px;
+}
+
+.description{
+    font-size: medium;
+    padding: 5px;
+    color: rgb(110, 109, 109);
+}
+
+.likes > span{
+   padding: 0px 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .description{
+        font-size: x-small;
+        color: rgb(5, 5, 5);
+    }  
+}

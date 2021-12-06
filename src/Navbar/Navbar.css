@@ -1,0 +1,82 @@
+.Navbar > div > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.ham , .ham2{
+   opacity: 0;
+   top: 0;
+   left: 0;
+}
+
+.links{
+    margin-right: 12vw;
+}
+
+.Search{
+    position: absolute;
+    top: 20px;
+    right: 5vw !important;
+}
+
+  
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: x-large;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    margin-top: -15px;
+    background-color: rgb(232,74,73);
+}
+
+@media only screen and (max-width: 1000px) {
+    .Navbar{
+        position: absolute;
+        left: 0;
+        width: 300px;
+        height: 150vh;
+        z-index: 5
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .Search{
+        position: absolute;
+        top: 0px;
+        right: -65vw !important;
+    }
+
+    .profile{
+        position: absolute;
+        top: 0px;
+    }
+
+    .ham{
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        left: 10vw;
+        
+      }
+    
+      .ham2{
+        opacity: 1;
+        position: absolute;
+        top: 10px;
+        right: -50vw;
+      }
+
+      .description{
+        font-size: 1ch ;
+    }
+  }
+
+ 
